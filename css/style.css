@@ -230,6 +230,10 @@ header .container-header .header-right .container-lang
     position: fixed;
 }
 
+.disappear{
+    display: none!important;
+}
+
 .divider
 {
     width: 100%;

@@ -5,9 +5,11 @@
 
         BotClose.addEventListener('click', function() {
             ResponsiveHeaderContent.classList.remove('appear');
+            BotOpen.classList.remove('disappear');
         });
 
         BotOpen.addEventListener('click', function() {
             ResponsiveHeaderContent.classList.add('appear');
+            BotOpen.classList.add('disappear');
         });
 
