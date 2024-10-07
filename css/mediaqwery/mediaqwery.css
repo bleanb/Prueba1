@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+
+header .container-header .header-right
+{
+    display: none;
+    width: 0%;
+}
+
+header .container-header .header-left
+{
+    width: 100%;
+    justify-content: space-between;
+}
+
+header .container-header .header-left .img-header
+{
+    width: 60px;
+    margin-right: 25px;
+    margin-top: -10px;
+}
+
+header .container-header .header-left .menu-responsive
+{
+    display: block;
+}
+
+}
