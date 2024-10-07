@@ -5,14 +5,18 @@
     const ResponsiveHeaderContent = document.getElementById('responsive-header-content');
 
         BotClose.addEventListener('click', function() {
-            ResponsiveHeaderContent.classList.remove('appear');
-            BotOpen.classList.remove('disappear');
-            ImgHeader.classList.remove('disappear');
+            ResponsiveHeaderContent.classList.remove('appear2');
+            setTimeout(() => {
+                BotOpen.classList.remove('disappear');
+                ImgHeader.classList.remove('disappear');
+            }, 200); // Se cierra después del retardo
         });
 
         BotOpen.addEventListener('click', function() {
-            ResponsiveHeaderContent.classList.add('appear');
-            BotOpen.classList.add('disappear');
-            ImgHeader.classList.add('disappear');
+            ResponsiveHeaderContent.classList.add('appear2');
+            setTimeout(() => {
+                BotOpen.classList.add('disappear');
+                ImgHeader.classList.add('disappear');
+            }, 500); // Se cierra después del retardo
         });
 
